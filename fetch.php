@@ -8,6 +8,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $defaultConfig = array(
     'client_path' => __DIR__ . '/client.txt',
+    'result_path' => __DIR__ . '/result.csv',
     'countries' => array(
         array('name' => 'Russia', 'id' => 41),
     ),
@@ -50,7 +51,7 @@ if (is_readable($config['client_path'])) {
 }
 
 
-$fp = fopen('result.csv', 'a');
+$fp = fopen($config['result_path'], 'a');
 $time = time();
 
 foreach ($config['countries'] as $country) {
