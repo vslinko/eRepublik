@@ -1,0 +1,13 @@
+{
+    "name": "rithis/erepublik",
+    "require": {
+        "fabpot/goutte": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Vyacheslav Slinko",
+            "email": "vyacheslav.slinko@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
