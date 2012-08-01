@@ -15,11 +15,11 @@ $defaultConfig = array(
     'products' => array(
         array('name' => 'Food', 'id' => 1, 'max_quality' => 7),
         array('name' => 'Weapons', 'id' => 2, 'max_quality' => 7),
-        array('name' => 'Moving Tickets', 'id' => 3, 'max_quality' => 5),
+//        array('name' => 'Moving Tickets', 'id' => 3, 'max_quality' => 5),
         array('name' => 'Food Raw Materials', 'id' => 7, 'max_quality' => 1),
         array('name' => 'Weapon Raw Materials', 'id' => 12, 'max_quality' => 1),
-        array('name' => 'Hospital', 'id' => 5, 'max_quality' => 5),
-        array('name' => 'Defence System', 'id' => 6, 'max_quality' => 5),
+//        array('name' => 'Hospital', 'id' => 5, 'max_quality' => 5),
+//        array('name' => 'Defence System', 'id' => 6, 'max_quality' => 5),
     ),
 );
 $config = array_merge($defaultConfig, $config);
