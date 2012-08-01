@@ -4,7 +4,7 @@ data <- read.csv("result.csv", col.names=c(
 data <- data[data$product == "Food", ]
 data$time <- as.POSIXct(data$time, origin="1970-01-01")
 
-modifiers <- c(2, 4, 6, 8, 10, 15, 20)
+modifiers <- c(2, 4, 6, 8, 10, 12, 20)
 
 xrange <- range(data$time)
 yrange <- c(min(data[data$quality == 1, ]$price) * 50 - 1, max(data[data$quality == 7, ]$price) * 5 + 1)
